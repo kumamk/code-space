@@ -1,7 +1,7 @@
 package main
 
 import (
-	"code-space/graph"
+	"code-space/array"
 	"fmt"
 )
 
@@ -17,6 +17,6 @@ func main() {
 	// for u := 0; u < V; u++ {
 	// 	adj[u] = append(adj[u], graph[u]...)
 	// }
-	time := [][]int{{1, 2, 1}}
-	fmt.Println(graph.NetworkDelayTime(time, 2, 1))
+	nums := []int{1, 2, 3, 4, 3}
+	fmt.Println(array.NGE(nums))
 }
