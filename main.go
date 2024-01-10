@@ -1,7 +1,7 @@
 package main
 
 import (
-	"code-space/array"
+	"code-space/string"
 	"fmt"
 )
 
@@ -17,6 +17,8 @@ func main() {
 	// for u := 0; u < V; u++ {
 	// 	adj[u] = append(adj[u], graph[u]...)
 	// }
-	nums := []int{1, 2, 3, 4, 3}
-	fmt.Println(array.NGE(nums))
+	// nums := []int{1, 2, 3, 4, 3}
+	txt := "geeksforgeeks"
+	pat := "geek"
+	fmt.Println(string.KMP(pat, txt))
 }
