@@ -18,9 +18,8 @@ func KMP(pat, txt string) []int {
 		}
 
 		if j == m {
-			result = append(result, i-j+1)
+			result = append(result, i-j)
 			j = lps[j-1]
-			i++
 		} else if pat[j] != txt[i] {
 			if j != 0 {
 				j = lps[j-1]

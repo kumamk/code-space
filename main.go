@@ -18,7 +18,7 @@ func main() {
 	// 	adj[u] = append(adj[u], graph[u]...)
 	// }
 	// nums := []int{1, 2, 3, 4, 3}
-	txt := "geeksforgeeks"
-	pat := "geek"
+	txt := "ocmm"
+	pat := "m"
 	fmt.Println(string.KMP(pat, txt))
 }
