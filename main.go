@@ -1,7 +1,7 @@
 package main
 
 import (
-	"code-space/string"
+	bitmanipulation "code-space/bit-manipulation"
 	"fmt"
 )
 
@@ -18,7 +18,6 @@ func main() {
 	// 	adj[u] = append(adj[u], graph[u]...)
 	// }
 	// nums := []int{1, 2, 3, 4, 3}
-	txt := "ocmm"
-	pat := "m"
-	fmt.Println(string.KMP(pat, txt))
+
+	fmt.Println(bitmanipulation.FindMaximumNumber(7, 2))
 }
