@@ -12,6 +12,7 @@ func FindMaximumNumber(k int64, x int) int64 {
 	right := int64(1e15)
 	ans := int64(0)
 
+	// func to get set count till num
 	var getBitCount func(int64)
 	getBitCount = func(num int64) {
 		if num == 0 {
