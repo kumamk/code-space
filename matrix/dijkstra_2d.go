@@ -1,4 +1,4 @@
-package graph
+package matrix
 
 // https://leetcode.com/problems/path-with-minimum-effort/description/
 
