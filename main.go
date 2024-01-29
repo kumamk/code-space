@@ -1,7 +1,7 @@
 package main
 
 import (
-	bitmanipulation "code-space/bit-manipulation"
+	recurmemo "code-space/recur_memo"
 	"fmt"
 )
 
@@ -19,5 +19,7 @@ func main() {
 	// }
 	// nums := []int{1, 2, 3, 4, 3}
 
-	fmt.Println(bitmanipulation.FindMaximumNumber(7, 2))
+	// list := [][]int{{1, 2}, {3, 2}, {5, 3}, {6, 2}, {7, 2}}
+	list := [][]int{{3, 2}, {5, 4}, {6, 3}}
+	fmt.Println(recurmemo.MaxGifts(list))
 }
